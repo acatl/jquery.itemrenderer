@@ -54,7 +54,6 @@ $(function () {
 });
 */
 
-
 /*
 Example 5:
 
@@ -89,7 +88,6 @@ $(function () {
 	$("#itemrenderer").itemrenderer(itemrendererOptions);
 });
 */
-
 
 /*
 Example 4.2:
@@ -162,24 +160,24 @@ $(function () {
 Example 3:
 
 $(function () {
-	var itemrendererOptions = {
-		labelField: "name",
-		dataProvider: [ 
-			{
-				name: "lorem"
-			}, 
-			{
-				name: "lipsum"
-			},
-			{
-				name: "dolor"
-			},
-			{
-				name: "sit"
-			}
-		]
-	};
-	$("#itemrenderer").itemrenderer(itemrendererOptions);
+var itemrendererOptions = {
+labelField: "name",
+dataProvider: [ 
+{
+name: "lorem"
+}, 
+{
+name: "lipsum"
+},
+{
+name: "dolor"
+},
+{
+name: "sit"
+}
+]
+};
+$("#itemrenderer").itemrenderer(itemrendererOptions);
 });
 */
 		
@@ -217,3 +215,6 @@ $(function () {
 	};
 	$("#itemrenderer").itemrenderer(itemrendererOptions);
 });
+
+
+

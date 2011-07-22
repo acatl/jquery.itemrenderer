@@ -45,7 +45,7 @@ $.widget("ir.itemrenderer", {
 			owner : owner,
 			label: label,
 			data : data,
-			column : options,
+			options : options,
 			index : index
 		};
 		
